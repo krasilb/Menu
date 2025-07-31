@@ -1,0 +1,271 @@
+body {
+  font-family: 'Poppins',"Noto Kufi Arabic", "Poppins", sans-serif !important;
+  color: black;
+  background-color: #8a171a !important;
+  background-position: center;
+  background-repeat: repeat-y;
+  background-size: contain;
+}
+
+
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+a:hover {
+  color: #000;
+  text-decoration: none;
+}
+hr{
+  color: #8a171a;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Poppins", sans-serif;
+}
+
+section{
+  width: 90%;
+  height: 90%;
+  margin: 0 auto;
+  margin-top: 20px;
+  border-radius: 20px;
+}
+/*--------------------------------------------------------------
+# Back to top button
+--------------------------------------------------------------*/
+.back-to-top {
+  position: fixed;
+  visibility: hidden;
+  opacity: 0;
+  right: 15px;
+  bottom: 15px;
+  z-index: 996;
+  
+  color: white;
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  transition: all 0.4s;
+}
+
+.back-to-top i {
+  font-size: 28px;
+  color: #000000;
+  line-height: 0;
+}
+
+.back-to-top.active {
+  visibility: visible;
+  opacity: 1;
+}
+
+
+
+
+
+/*--------------------------------------------------------------
+# Sections General
+--------------------------------------------------------------*/
+section {
+  padding: 60px 0;
+  
+}
+
+.section-bg {
+  background-color: #8a171a;
+}
+
+.section-title {
+  text-align: center;
+ 
+   background-color: #8a171a;
+}
+
+.section-title h2 {
+  margin: 15px 0 0 0;
+  font-size: 32px;
+  font-weight: 700;
+  color: #5f5950;
+}
+
+.section-title h2 span {
+  color: #57605b;
+}
+
+.section-title p {
+  margin: 15px auto 0 auto;
+  font-weight: 300;
+}
+
+@media (min-width: 1024px) {
+  .section-title p {
+    width: 50%;
+  }
+}
+
+
+
+/*--------------------------------------------------------------
+# Menu Section
+--------------------------------------------------------------*/
+.menu{
+  background-color: white;
+  padding: 15px;
+  
+}
+.menu #menu-flters {
+  padding: 0;
+  margin: 0 auto 0 auto;
+  list-style: none;
+  text-align: center;
+  border-radius: 50px;
+  font-family: 'Poppins';
+
+padding-bottom: 20px;
+}
+
+.menu #menu-flters li {
+  cursor: pointer;
+  display: inline-block;
+  padding: 8px 16px 10px 16px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1;
+  color: #000;
+  margin: 0 3px 10px 3px;
+  transition: all ease-in-out 0.3s;
+  background: white;
+  border: 2px solid #8a171a;
+  border-radius: 50px;
+}
+
+.menu #menu-flters li:hover,
+.menu #menu-flters li.filter-active {
+  color: white;
+  background: #8a171a;
+}
+
+.menu #menu-flters li:last-child {
+  margin-right: 0;
+}
+
+.menu .menu-content {
+  margin-top: 30px;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  color: #000;
+  position: relative;
+  z-index: 3;
+  font-weight: 700;
+  
+}
+
+.menu .menu-content::after {
+  position: absolute;
+  left: 20px;
+  right: 0;
+  top: -4px;
+  z-index: 1;
+  color: #dad8d4;
+  font-family: 'Poppins', Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.menu .menu-content span {
+  position: relative;
+  z-index: 3;
+ 
+  font-weight: 600;
+}
+
+.menu .menu-ingredients {
+  font-size: 14px;
+  font-family: "Comic Neue", sans-serif;
+  color: #000;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+
+.sub {
+  font-style: italic;
+  font-size: 14px;
+  font-family: "Poppins", sans-serif;
+  color: #000000;
+  text-align: center;
+}
+
+.boldinios{
+  font-weight: bold;
+  font-family: 'Poppins',"Noto Kufi Arabic", "Poppins", sans-serif !important;
+
+}
+
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+#footer {
+  background: none;
+  color: #fff;
+  font-size: 14px;
+  text-align: center;
+  padding: 30px 0;
+}
+
+#footer h3 {
+  font-size: 36px;
+  font-weight: 700;
+  color: #57605b;
+  position: relative;
+  padding: 0;
+  margin: 0 0 15px 0;
+}
+
+#footer p {
+  font-size: 15;
+  font-style: italic;
+  padding: 0;
+  margin: 0 0 40px 0;
+}
+
+#footer .social-links {
+  margin: 0 0 40px 0;
+}
+
+#footer .social-links a {
+  font-size: 18px;
+  display: inline-block;
+  background: none;
+  color: #fff;
+  line-height: 1;
+  padding: 8px 0;
+  margin-right: 4px;
+  border-radius: 50%;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+  transition: 0.3s;
+}
+
+#footer .copyright {
+  margin: 0 0 5px 0;
+}
+
+#footer .credits {
+  font-size: 13px;
+}
+
+.text-center{
+  color: #8a171a;
+  padding: 15px;
+}
+
+
